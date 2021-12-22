@@ -1,7 +1,9 @@
 import React from "react";
+import "./styledComponents.css"
+
 
 export default function ParagraphText({input}) {
     return(
-        <p>{input}</p>
+        <p class="ParagraphText">{input}</p>
     );
 }

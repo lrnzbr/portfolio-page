@@ -3,10 +3,11 @@ import Header1 from "../StyleComponents/Header1";
 import Header2 from "../StyleComponents/Header2";
 import ParagraphText from "../StyleComponents/ParagraphText";
 import VideoContainer from "../StyleComponents/VideoContainer";
+import "./sections.css"
 
 export default function ProjectsSection() {
     return(
-        <div>
+        <div class="Section" id="Projects">
         <Header1 input = "Fun Projects"/>
         <ACapellaApp/>
         <PointOfSalesApp/>

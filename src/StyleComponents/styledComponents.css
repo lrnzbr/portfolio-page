@@ -1,0 +1,122 @@
+.Button {
+    text-decoration: none;
+}
+.Button div {
+    max-width: 120;
+    height: 3em;
+    border-width: 5em;
+    border-color: black;
+    border-radius: 12px;
+    background-color: #5CA095;
+    opacity: .9;
+    display: flex;
+    padding: auto;
+    margin: 1em;
+}
+.Button :hover {
+    background-color: #1a544a;
+}
+.Button p {
+    color: white;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.Caption {
+    text-align: center;
+    color: #000000;
+    opacity: 50%;
+    font-size: .8em;
+
+}
+.HeroHeader {
+ text-align: center;
+}
+.Header1 {
+    text-align: center;
+}
+
+.Header2 {
+    text-align: center;
+}
+
+.ImageWithCaption {
+ max-width: 95%;
+}
+
+.ImageWithCaption img {
+    max-width: 100%;
+}
+
+.ParagraphText {
+    font-size: 1.3em;
+    text-align: left;
+    line-height: 1.5em;
+    max-width: 95%;
+    margin: auto;
+
+}
+
+.SocialMediaIcon {
+
+}
+
+.VideoContainer {
+    margin:auto;
+
+}
+
+.VideoContainer iframe {
+width: 100%;
+}
+
+.Footer  {
+    text-align: center;
+    font-size: .8em;
+    color: black;
+    opacity: 70%;
+    margin: auto;
+
+}
+.Footer a {
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    .Button {
+
+    }
+    
+    .Caption {
+    
+    }
+    .HeroHeader {
+    
+    }
+    
+    .Header1 {
+    
+    }
+    
+    .Header2 {
+    
+    }
+    
+    .ImageWithCaption {
+    
+    }
+    
+    .ParagraphText {
+    
+    }
+    
+    .SocialMediaIcon {
+    
+    }
+    
+    .VideoContainer {
+    
+    }
+ 
+
+}

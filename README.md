@@ -1,3 +1,7 @@
+# Lorenzo Brown's Portfolio Page
+This portfolio page was designed to showcase my work. Feel free to use the code to your heart's whim. ❤️
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

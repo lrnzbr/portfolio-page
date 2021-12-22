@@ -1,7 +1,9 @@
 import React from "react";
+import "./styledComponents.css"
+
 
 export default function Caption({input}) {
     return(
-        <p>{input}</p>
+        <p class = "Caption">{input}</p>
     )
 }

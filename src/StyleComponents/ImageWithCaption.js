@@ -1,11 +1,13 @@
 import React from "react";
+import "./styledComponents.css"
+
 import Caption from "./Caption"
 
 export default function ImageWithCaption({image, caption, altText}) {
     return(
-        <div>
+        <div class="ImageWithCaption">
         <img src = {image} alt = {altText}/>
-        <p>{caption}</p>
+        <Caption input = {caption}/>
         </div>
     );
 }
