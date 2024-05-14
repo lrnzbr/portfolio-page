@@ -1,0 +1,104 @@
+.employmentHistorySection {
+    background-color: black;
+}
+
+.employmentHistoryTitle {
+    color: #fff;
+    text-align: left;
+    padding-left: 2%;
+}
+.employmentHistoryItemContainer {
+    border-radius: 1em;
+    border: 1px solid #fff;
+    padding: 0.5em;
+    max-height: 30em;
+    margin: 0.5em;
+}
+.titleContainer {
+    height: 30%;
+    border-radius: 1em 1em 1em 1em;
+    color: grey;
+    text-align: center;
+    margin: 0.5em;
+    font-size: 1.5em;
+}
+.bodyContainer {
+    border-radius: 1em;
+    height: 65%;
+    overflow: hidden;
+    margin: 0.5em;
+}
+.imageContainer {
+    width: 25%;
+    display: inline-block;
+    margin: 0.5em auto;
+    height: 100%;
+}
+.employmentTextContainer {
+    width: 70%;
+    display: inline-block;
+    margin: 0.5em;
+    vertical-align: top;
+    height: 100%;
+    color: #fff;
+}
+.employmentImage {
+    object-fit: contain;
+    border-radius: 1em;
+    border-color: black;
+    height: 85%;
+    width: 85%;
+    padding: 0.5em;
+    margin: 0.5em auto;
+}
+.bulletpointsContainer {
+}
+.tagSection {
+    min-height: 4em;
+    padding: 1em;
+    margin: 0.2em auto;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tagSection::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.tagSection {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.tag {
+    min-height: 1.8em;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 1px solid white;
+    color: white;
+}
+ul {
+    text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+    .employmentHistoryItemContainer {
+        max-height: 8000em;
+    }
+    .employmentTextContainer {
+        max-width: 8000em;
+    }
+    .imageContainer {
+        display: block;
+        width: 100%;
+    }
+    .employmentTextContainer {
+        display: block;
+        width: 100%;
+    }
+    .bodyContainer {
+        overflow-y: scroll;
+    }
+}

@@ -1,0 +1,40 @@
+.portfolio-title {
+    text-align: left;
+    padding-left: 2%;
+}
+
+.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scroll-item {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.portfolio-description {
+    background-color: #ffffff;
+    max-height: 0px;
+    transition: max-height 1.5s ease-in;
+}
+.portfolio-image {
+    object-fit: contain;
+    max-height: 50%;
+    max-width: 50%;
+}
+.portfolio-description.expanded {
+    max-height: 8000px;
+    transition: max-height 1.5s ease-out;
+}
+
+.AppImage {
+    max-width: 50%;
+}
+
+section {
+    overflow: hidden;
+}
