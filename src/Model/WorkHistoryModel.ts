@@ -31,22 +31,6 @@ export class WorkHistoryModel implements WorkHistoryInterface {
   }
 }
 
-const echoBind = new WorkHistoryModel(
-  "EchoBind",
-  "iOS Software Engineer - Contractor",
-  "https://echobind.com/images/eb-logo.svg",
-  [
-    "Added multiple enhancements to the iPad app for our client The Wall Street Journal",
-    "Created new article views using GraphQL, SwiftUI and MVVM design patterns",
-    "Built an offline solution for downloading past articles leveraging disk persistence and Apollo caching",
-    "Consulted on high-level architecture solutions and best practices",
-  ],
-  ["SwiftUI", "Swift", "Xcode", "GraphQL", "Apollo"],
-  new Date("2024-01-01"),
-  new Date("2024-03-01"),
-  "https://echobind.com",
-);
-
 const brightfin = new WorkHistoryModel(
   "Brightfin",
   "iOS Software Engineer - Freelancer",
@@ -59,8 +43,8 @@ const brightfin = new WorkHistoryModel(
     "Using SwiftUI to build out all components in a modern framework",
   ],
   ["SwiftUI", "Plaid", "Firebase", "OAuth"],
-  new Date("2023-06-01"),
-  new Date("2024-03-01"),
+  new Date("2023-07-01"),
+  new Date(),
   "https://brightfin.io",
 );
 
@@ -76,25 +60,25 @@ const fidelity = new WorkHistoryModel(
     "Collaborated with our Frameworks team to reduce compilation times that exceeded 2 hours",
   ],
   ["SwiftUI", "UIKit", "Objective-C", "CI/CD", "Swift"],
-  new Date("2022-09-01"),
-  new Date("2023-06-01"),
+  new Date("2022-07-01"),
+  new Date("2023-07-01"),
   "https://fidelity.com",
 );
 
-const daylight = new WorkHistoryModel(
-  "Daylight",
-  "Senior Software Engineer",
-  "https://vacuumlabs.com/wp-content/uploads/2022/06/daylight-title-image.png",
-  [
-    "Led frontend development team for new LGBT-focused banking platform",
-    "Inherited a project from an offshore company and implemented best practices for a new in-house team",
-    "Developed internal QA tools to speed up testing procedures over 2x and minimize regressions",
-  ],
-  ["React Native", "QA", "Tooling", "Leadership", "JavaScript", "TypeScript"],
-  new Date("2022-02-01"),
-  new Date("2022-06-01"),
-  "https://twitter.com/joindaylight",
-);
+// const daylight = new WorkHistoryModel(
+//   "Daylight",
+//   "Senior Software Engineer",
+//   "https://vacuumlabs.com/wp-content/uploads/2022/06/daylight-title-image.png",
+//   [
+//     "Led frontend development team for new LGBT-focused banking platform",
+//     "Inherited a project from an offshore company and implemented best practices for a new in-house team",
+//     "Developed internal QA tools to speed up testing procedures over 2x and minimize regressions",
+//   ],
+//   ["React Native", "QA", "Tooling", "Leadership", "JavaScript", "TypeScript"],
+//   new Date("2022-02-01"),
+//   new Date("2022-06-01"),
+//   "https://twitter.com/joindaylight",
+// );
 
 const alt = new WorkHistoryModel(
   "Alt",
@@ -114,8 +98,8 @@ const alt = new WorkHistoryModel(
     "JavaScript",
     "TypeScript",
   ],
-  new Date("2021-05-01"),
-  new Date("2021-10-01"),
+  new Date("2021-02-01"),
+  new Date("2022-05-01"),
   "https://alt.xyz",
 );
 
@@ -136,8 +120,8 @@ const climateAI = new WorkHistoryModel(
     "Machine Learning",
     "Cloud",
   ],
-  new Date("2020-01-01"),
-  new Date("2020-10-01"),
+  new Date("2020-02-01"),
+  new Date("2021-01-01"),
   "https://climate.ai",
 );
 
@@ -159,8 +143,8 @@ const grey = new WorkHistoryModel(
     "UIKit",
     "Swift",
   ],
-  new Date("2018-03-01"),
-  new Date("2019-11-01"),
+  new Date("2018-04-01"),
+  new Date("2021-01-01"),
   "https://www.crunchbase.com/organization/grey-inc",
 );
 
@@ -174,16 +158,16 @@ const givelify = new WorkHistoryModel(
     "Implemented new UI updates for version 3.0 of the Givelify App",
   ],
   ["Objective-C", "Swift", "UIKit", "AWS"],
-  new Date("2017-10-01"),
-  new Date("2018-03-01"),
+  new Date("2016-11-01"),
+  new Date("2018-04-01"),
   "https://givelify.com",
 );
 
 export const workHistory = [
-  echoBind,
+  //echoBind,
   brightfin,
   fidelity,
-  daylight,
+  //daylight,
   alt,
   climateAI,
   grey,

@@ -25,16 +25,14 @@ export default function Hero() {
   // }, []);
   return (
     <section className="hero-section">
-      <div>
-        <div>
-          <h1 className="hero-title">Lorenzo Brown</h1>
-          <h2 className="hero-subtitle">iOS Developer</h2>
-        </div>
-        <img className="green-iphone" src={greeniPhone} alt="green iPhone" />
+      <div className="text-container">
+        <h1 className="hero-title">Lorenzo Brown</h1>
+        <h2 className="hero-subtitle">iOS Developer</h2>
         <a href="#nav" className="cta-button">
           View Portfolio
         </a>
       </div>
+      <img className="green-iphone" src={greeniPhone} alt="green iPhone" />
     </section>
   );
 }

@@ -10,7 +10,7 @@ export default function ContactSection() {
       <div className="expandable" id="nav3">
         <p>
           If you have any questions or would like to get in touch, please feel
-          free to contact me via LinkedIn or GitHub.
+          free to contact me via the links provided below.
         </p>
         <DefaultButton
           {...{
@@ -39,7 +39,12 @@ export default function ContactSection() {
             action: "https://www.youtube.com/channel/UCg8kOaVBColLUp9watXYL3g",
           }}
         />
-
+        <DefaultButton
+          {...{
+            title: "My Medium Blog",
+            action: "https://www.medium.com/@lrnzbr",
+          }}
+        />
         <DefaultButton
           {...{
             title: "Email Me",
