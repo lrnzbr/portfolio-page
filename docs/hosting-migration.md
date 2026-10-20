@@ -24,4 +24,13 @@ To roll back after a DNS cutover, restore the two website records above. Firebas
 
 ## Current status
 
-The Render Blueprint has been created. Its first build exposed an unused utility importing a Git-ignored Firebase config; the unused utility was removed for reproducible builds. Custom-domain cutover is pending verification of the Render deployment and approval of Render’s additional-domain charge ($0.25/month beyond the workspace’s two included domains).
+Render deployed commit `49a1d39` successfully. Its first build exposed an unused utility importing a Git-ignored Firebase config; the unused utility was removed and a build from a clean Git archive passed.
+
+The user approved Render’s additional-domain charge of $0.25/month. The domain was added to the Render service, and the following Squarespace records were saved:
+
+| Type | Host | Value | TTL |
+| --- | --- | --- | --- |
+| A | @ | 216.24.57.1 | 1 hour |
+| CNAME | www | lorenzo-brown-portfolio.onrender.com | 1 hour |
+
+Public DNS at 1.1.1.1 returns these values. Render domain verification and TLS issuance are being checked. Firebase remains available for rollback, with its production deployment workflow set to manual.
