@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: lorenzo-brown-portfolio
+    runtime: static
+    repo: https://github.com/lrnzbr/portfolio-page
+    branch: main
+    buildCommand: npm ci && npm run build
+    staticPublishPath: build
+    autoDeployTrigger: commit
+    domains:
+      - lorenzobrown.dev
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
