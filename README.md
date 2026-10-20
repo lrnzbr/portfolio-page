@@ -22,7 +22,7 @@ The production files are generated in `build/`.
 
 `render.yaml` defines a Render Static Site linked to `main`, built with Node 22 and `npm ci && npm run build`. Render publishes `build/` and deploys new commits automatically.
 
-Create the site from this repository as a Render Blueprint. Confirm its first deployment works at the Render-provided URL before updating DNS for `lorenzobrown.dev`. The domain is declared in the Blueprint; use the exact DNS records displayed by Render after creation, then verify the domain and HTTPS certificate in the dashboard.
+Create the site from this repository as a Render Blueprint. Confirm its first deployment works at the Render-provided URL before updating DNS for `lorenzobrown.dev`. Add the custom domain after approving any Render domain charge; use the exact DNS records displayed by Render, then verify the domain and HTTPS certificate in the dashboard.
 
 Firebase Hosting remains configured as a fallback during the migration. Its production deployment workflow is manual, so future pushes can deploy through Render without updating Firebase. Keep the previous hosting release available until the domain cutover is verified.
 

@@ -7,8 +7,6 @@ services:
     buildCommand: npm ci && npm run build
     staticPublishPath: build
     autoDeployTrigger: commit
-    domains:
-      - lorenzobrown.dev
     envVars:
       - key: NODE_VERSION
         value: "22"
